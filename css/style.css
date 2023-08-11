@@ -1,0 +1,35 @@
+.cod {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.wrap{
+    width: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.inp {
+    width: 200px;
+}
+.btn{
+    position: absolute;
+    right: 0px;
+    background-color: rgba(48, 19, 116, 0.87);
+    color: aliceblue;
+    border: 1px solid rgba(48, 19, 116, 0.87);
+}
+
+.result {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    transition: background-color 0.5  s ease;
+
+}
